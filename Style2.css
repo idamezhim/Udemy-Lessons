@@ -1,0 +1,25 @@
+.Container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:;
+    justify-content: ;
+    align-items: flex-end;
+}
+h1{
+    font-family: fantasy;
+    font-size: 2em;
+    border-right: 2px solid pink;
+    border-bottom: 2px solid pink;
+    width: 400px;
+    text-align: center;
+}
+img{
+    width: 450px;
+    height: 300px;
+    margin: 10px;
+    transition: all 1s;
+}
+img:hover{
+    transform: scale(1.1);
+
+}
