@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register For My Website</title>
+</head>
+<body style="background-color: burlywood;">
+    <!-- Use GET, not Post -->
+    <div>
+        <form>
+            First Name:<input type="text" name="First Name"><br>
+            Last Name:<input type="text" name="Last Name"><br>
+            Email: <input type="email" name="Email" required><br>
+            Password:<input type="password" name="Password" minlength="5" ><br>
+            Date Of Birth: <input type="date" name="DOB"><br>
+            Gender:<br>
+            <input type="radio" name="Gender" value="Male">Male<br>
+            <input type="radio" name="Gender" value="Female">Female<br>
+            <input type="radio" name="Gender" value="Other">Other<br>
+            Pets:<br>
+            Dogs<input type="checkbox" value="Dogs" name="Dogs"><br>
+            Cat<input type="checkbox" value="Cats" name="Cats"><br>
+            Cars:<br>
+            <select  name="Cars">
+                <option value="Volvo">Volvo</option>
+                <option value="Audi" >Audi</option>
+            </select><br>
+            <input type="submit" value="Register">
+            <input type="reset">
+        </form>
+    </div>
+    
+
+</body>
+</html>
